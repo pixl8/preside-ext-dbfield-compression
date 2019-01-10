@@ -1,0 +1,22 @@
+{
+    "name":"PresideCMS Extension: Preside Database Field Compression",
+    "type":"preside-extensions",
+    "version":"VERSION_NUMBER",
+    "location":"https://s3.eu-west-2.amazonaws.com/pixl8-public-packages/dbfield-compression/DOWNLOAD_LOCATION",
+    "private":false,
+    "author":"Pixl8 Interactive",
+    "directory":"application/extensions",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/pixl8/preside-ext-dbfield-compression"
+    },
+    "slug":"preside-ext-dbfield-compression",
+    "projectURL":"https://github.com/pixl8/preside-ext-dbfield-compression",
+    "ignore":[
+        ".git/*",
+        ".gitignore",
+        ".travis.yml",
+        ".twgit_features_subject",
+        "*.sh"
+    ]
+}
