@@ -12,8 +12,7 @@ install:
   - unzip /tmp/box.zip -d /tmp/bin
   - pip install awscli
 script:
-  - ./tests/test.sh
-  - ./buildDeployAndPublish.sh
+  - ./tests/test.sh && ./buildDeployAndPublish.sh
 
 notifications:
   email: false
